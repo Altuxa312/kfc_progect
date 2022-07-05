@@ -1,0 +1,28 @@
+section{
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+}
+section h1{
+    font-size: 44px;
+    line-height: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.navbar a{
+    color: 
+    #9D9D9D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navbar a:hover{
+    color: black;
+    transition: 0.3ms;
+    display: inline;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 15px;
+}

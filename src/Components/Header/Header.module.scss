@@ -1,0 +1,83 @@
+header{
+    padding: 0px 33px 0px 33px;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+header:hover{
+    transition: 1s;
+    background-color: red;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img{
+    padding-top: 10px;
+    width: 60px;
+    height: 100px;
+}
+
+.logo h1{
+    font-weight: bold;
+    font-size: 44px;
+    font-style: italic;
+    cursor: pointer;
+    filter: drop-shadow(10px 10px 4px #000);
+
+}
+
+.logo h1:hover{
+    transition: 1s;
+    color: #fff;
+}
+.menu ul{
+    display: flex;
+    gap: 7rem;
+}
+
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #FFF;
+    transition: 0.5s;
+    font-size: 18px;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 15px;
+}
+
+.iconss{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.iconss input{
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+}
+
+.iconss input:hover{
+    transition: 0.5s;
+    transform: scale(1.3);
+}

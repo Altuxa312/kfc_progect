@@ -1,0 +1,56 @@
+.Footer{
+    background-color: aliceblue;
+  
+}
+.cherta  {
+    display: flex;
+   justify-content: center;
+    gap: 4rem;
+    .cg{
+        width: 50px;
+        height: 80px;
+        background-color: #ff0000;
+    }
+}
+
+.container{
+    display: flex;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+    justify-content: space-around;
+    h1{
+        line-height: 0;
+        font-weight: 400;
+    } 
+    p{
+        line-height: 35px;
+        padding-top: 20px;
+        color: #000000;
+        opacity: 0.8;
+        cursor: pointer;
+       
+    }
+    img{
+        width: 200px;
+        height: 250px;
+    }
+}
+.container p:hover{
+    transition: 1s;
+    color: black;
+}
+.and{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text h1{
+    color: red;
+    font-size: 28px;
+    cursor: pointer;
+}
+.text_1 h1{
+    font-size: 28px;
+}
+.text_2 h1{
+    font-size: 28px;
+}

@@ -1,0 +1,44 @@
+.content{
+    background-color: aliceblue;
+    padding-top: 50px 85px 0px 85px;
+  
+}
+
+.block{
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+
+}
+.block img{
+    width: 150px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+.block:hover{
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px #b4b4b4;
+    img{
+        transition: 0.7s;
+        transform: scale(1.5);
+    }
+}
+.cena{
+    padding-top: 35px;
+}
+
+.cena h3{
+    color: black;
+    font-size: 24px;
+}
+
+
+.cena h5{
+    font-size: 16px;
+    color: #b4b4b4;
+}
+
+
+
